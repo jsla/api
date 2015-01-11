@@ -1,0 +1,23 @@
+{
+  "name": "jsla-api",
+  "version": "0.0.1",
+  "description": "this is the api for js.la",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "hapi"
+  ],
+  "author": "Jacob Lowe <jcbl.ws>",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^2.5.1",
+    "dotenv": "~0.2.8",
+    "eventemitter2": "^0.4.14",
+    "hapi": "^8.0.0",
+    "mailchimp": "^1.1.0"
+  }
+}
